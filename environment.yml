@@ -1,0 +1,23 @@
+name: bayes_tutorial
+
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - ipython
+  - ipywidgets
+  - jax
+  - jaxlib
+  - jupyter_client
+  - jupyter_core
+  - jupyterlab
+  - numpyro
+  - pandas
+  - patsy
+  - pip
+  - pymc
+  - pydot
+  - python-graphviz
+  - scipy
+  - seaborn
+  - setuptools
