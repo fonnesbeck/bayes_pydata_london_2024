@@ -20,7 +20,7 @@ This tutorial will be presented using Jupyter notebooks, enabling participants t
     - Priors and likelihoods: how to choose
     - Deterministic quantities
     - Converting math to code
-- Estimating models with Markov chain Monte Carlo (25 min)
+- Estimating models with Markov chain Monte Carlo (15 min)
     - How can we estimate a model with sampling?
     - The Hamiltonian Monte Carlo algorithm
     - MCMC in PyMC
@@ -29,5 +29,8 @@ This tutorial will be presented using Jupyter notebooks, enabling participants t
     - Summarizing your model with plots and tables
     - Did our inference algorithm work as expected?
     - Is our model generating reasonable and believable results?
-- The Bayesian workflow (20 min)
+- The Bayesian workflow (30 min)
     - A complete working example, from data import through to interpreting the results
+    - Using `do` and `observe`
+    - out-of-sample prediction
+    - Bayesian best practices

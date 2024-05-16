@@ -1,23 +1,22 @@
-name: bayes_tutorial
+name: pymc_course
 
 channels:
-  - conda-forge
+ - conda-forge
+ 
 dependencies:
-  - python
-  - ipython
-  - ipywidgets
-  - jax
-  - jaxlib
-  - jupyter_client
-  - jupyter_core
-  - jupyterlab
-  - numpyro
-  - pandas
-  - patsy
-  - pip
-  - pymc
-  - pydot
-  - python-graphviz
-  - scipy
-  - seaborn
-  - setuptools
+- python
+- arviz
+- ipython
+- jupyterlab
+- notebook
+- ipykernel
+- numpy
+- pandas
+- patsy
+- pip
+- python-graphviz
+- pymc
+- scipy
+- seaborn
+- pip:
+  - pybaseball
