@@ -16,6 +16,7 @@ dependencies:
 - pip
 - python-graphviz
 - pymc
+- scikit-learn
 - scipy
 - seaborn
 - pip:
