@@ -1,4 +1,4 @@
-name: pymc_course
+name: pymc_pydata_2024
 
 channels:
  - conda-forge
@@ -7,10 +7,12 @@ dependencies:
 - python
 - arviz
 - ipython
+- jax
 - jupyterlab
 - notebook
 - ipykernel
 - numpy
+- numpyro
 - pandas
 - patsy
 - pip
@@ -19,5 +21,4 @@ dependencies:
 - scikit-learn
 - scipy
 - seaborn
-- pip:
-  - pybaseball
+- watermark
