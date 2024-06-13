@@ -18,6 +18,7 @@ dependencies:
 - pip
 - python-graphviz
 - pymc
+- pymc-marketing
 - scikit-learn
 - scipy
 - seaborn
